@@ -21,17 +21,23 @@ Counter >> count [
 ^ count
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #setter }
 Counter >> count: sentValue [
 	count := sentValue
 ]
 
-{ #category : #accessing }
+{ #category : #setter }
 Counter >> decrement [	
 	count := count - 1
 ]
 
-{ #category : #accessing }
+{ #category : #setter }
 Counter >> increment [	
 	count := count + 1
+]
+
+{ #category : #initialization }
+Counter >> initialize [
+"set the initial value of the value to 0"
+count := 0
 ]
