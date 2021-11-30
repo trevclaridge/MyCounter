@@ -25,3 +25,13 @@ Counter >> count [
 Counter >> count: sentValue [
 	count := sentValue
 ]
+
+{ #category : #accessing }
+Counter >> decrement [	
+	count := count - 1
+]
+
+{ #category : #accessing }
+Counter >> increment [	
+	count := count + 1
+]
