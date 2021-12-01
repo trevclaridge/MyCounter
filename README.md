@@ -1,0 +1,3 @@
+# MyCounter
+
+Created in Pharo
